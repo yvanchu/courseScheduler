@@ -1,3 +1,5 @@
+# This is a course scheduler for Northwestern Winter 2022
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
