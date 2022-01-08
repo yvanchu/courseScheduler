@@ -38,7 +38,6 @@ const addScheduleTimes = (schedule) => ({
 
 const App = () => {
   const [schedule, loading, error] = useData("/", addScheduleTimes);
-  console.log(schedule);
 
   if (error) return <h1>{error}</h1>;
   if (loading) return <h1>Loading the schedule...</h1>;
